@@ -510,7 +510,7 @@ const Index = () => {
               </h2>
               <div className="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed">
                 <p>
-                  Estamos tão certos de que as <span className="text-foreground font-bold">Atividades da Copa</span> vão transformar as suas aulas e facilitar sua rotina, que oferecemos uma garantia de satisfação total por <span className="text-black font-bold text-lg">30 dias</span>.
+                  Estamos tão certos de que o <span className="text-foreground font-bold">Álbum de Matemática da Copa do Mundo</span> vai transformar as suas aulas e facilitar sua rotina, que oferecemos uma garantia de satisfação total por <span className="text-black font-bold text-lg">30 dias</span>.
                 </p>
               </div>
             </div>
