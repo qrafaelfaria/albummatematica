@@ -2,11 +2,11 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/Atividade01.png";
-import tshirt2 from "@/assets/Atividade02.png";
-import tshirt3 from "@/assets/Atividade03.png";
-import tshirt4 from "@/assets/Atividade04.png";
-import tshirt5 from "@/assets/Atividade05.png";
+import tshirt1 from "@/assets/Alemanha.png";
+import tshirt2 from "@/assets/Argentina.png";
+import tshirt3 from "@/assets/Brasil.png";
+import tshirt4 from "@/assets/Espanha.png";
+import tshirt5 from "@/assets/Franca.png";
 import tshirt6 from "@/assets/Atividade06.png";
 import tshirt7 from "@/assets/Atividade07.png";
 import tshirt8 from "@/assets/Atividade08.png";
@@ -14,13 +14,13 @@ import tshirt9 from "@/assets/Atividade09.png";
 import tshirt10 from "@/assets/Atividade10.png";
 import tshirt11 from "@/assets/Atividade11.png";
 import tshirt12 from "@/assets/Atividade12.png";
-import tshirt13 from "@/assets/Atividade13.png";
+import tshirt13 from "@/assets/Japao.png";
 import tshirt14 from "@/assets/Atividade14.png";
 import tshirt15 from "@/assets/Atividade15.png";
 import HeroCopa from "@/assets/MatematicaBanner.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
-import AtividadeImage from "@/assets/Atividades.png";
+import AtividadeImage from "@/assets/AtividadesBonus.jpg";
 import AvaliacaoImage from "@/assets/Avaliacao.png";
 import CuriosidadeImage from "@/assets/Curiosidade.png";
 import DinamicaImage from "@/assets/Dinamica.png";
@@ -69,21 +69,18 @@ const tshirts = [
   { src: tshirt1, alt: "Estampa Faith Over Fear" },
   { src: tshirt2, alt: "Estampa Cristo é Rei" },
   { src: tshirt3, alt: "Estampa Salmo 23" },
-  { src: tshirt4, alt: "Estampa Filhos de Deus" },
   { src: tshirt5, alt: "Estampa Cristo é Rei" },
   { src: tshirt13, alt: "Estampa Cristo é Rei" },
-  { src: tshirt14, alt: "Estampa Cristo é Rei" },
-  { src: tshirt15, alt: "Estampa Cristo é Rei" },
 ];
 
 
 
 const bonuses = [
   {
-    title: "Figurinhas Editáveis com Foto dos Alunos",
-    desc: "Modelo de figurinhas 100% editável para você inserir as fotos da turma e criar um álbum único e personalizado.",
+    title: "300 Atividades Pedagógicas",
+    desc: "Um material completo e pronto para trabalhar o tema Copa do Mundo em Português, Matemática, Geografia, História, Ciências, Artes e Educação Física.",
     old: "R$19,90",
-    imageSrc: FiguraBonus,
+    imageSrc: AtividadeImage,
     isBonus: true,
   },
   {
@@ -211,11 +208,11 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-foreground/90 leading-relaxed">
               <p>
-               Um material completo e pronto para trabalhar o tema Copa do Mundo em Português, Matemática, Geografia, História, Ciências, Artes e Educação Física.
+               Um material completo e pronto para trabalhar a Matemática no tema Copa do Mundo.
               </p>
               
               <p className="font-bold text-lg sm:text-lg">
-                 Alinhado à BNCC do Fundamental I (1º ao 5º ano) e pronto para usar em sala, no reforço escolar ou com a criança em casa.
+                 Adição, subtração, multiplicação e divisão de um jeito divertido e lúdico para seus alunos.
               </p>
             </div>
           </div>
@@ -232,7 +229,7 @@ const Index = () => {
         {/* T-SHIRTS */}
         <section className="py-6 border-t border-border">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-[#000080]`}>
-            Veja algumas das atividades que você vai encontrar
+            Veja o álbum por dentro
           </h2>
           <p className="mt-2 text-sm text-muted-foreground text-center">Deslize para o lado pra ver mais</p>
 
@@ -300,11 +297,12 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "300 Atividades do Ensino Infantil até o Ensino Fundamental I." },
-              { emoji: "✅", text: "7 apostilas temáticas com Português, Matemática, Geografia, História, Ciências, Artes e Educação Física." },
+              { emoji: "✅", text: "Álbum de matemática da Copa do Mundo pronto para imprimir e usar." },
+              { emoji: "✅", text: "+100 Figurinhas de respostas." },
+              { emoji: "✅", text: "Moldes dos pacotinhos para imprimir e entregar para os alunos." },
+              { emoji: "✅", text: "Adição, subtração, multiplicação e divisão de um jeito divertido e lúdico para seus alunos." },
               { emoji: "✅", text: "Material Alinhado à BNCC do Ensino Infantil até o Fundamental I (1º ao 5º ano) e pronto para usar em sala." },
               { emoji: "✅", text: "Conteúdo organizado por temas facilitando o planejamento das aulas." },
-              { emoji: "✅", text: "Aplicação prática de cada atividade no dia a dia." },
               { emoji: "✅", text: "Material completo em PDF. Acesse pelo celular, tablet ou computador." },
               { emoji: "🎁", text: "Bônus exclusivos no Plano Completo." },
             ].map((item, idx) => (
@@ -327,7 +325,7 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-[#cc0000] -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além das <strong>300 Atividades</strong>, ao adquirir o <br />
+              🎁 Além do <strong>Álbum e das Figurinhas</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>R$ 336 em 6 SUPER BÔNUS!</strong>
             </p>
             
