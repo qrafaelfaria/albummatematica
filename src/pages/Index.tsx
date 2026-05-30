@@ -121,6 +121,7 @@ const bonuses = [
 ];
 
 const faqs = [
+  { q: "O material é físico ou digital?", a: "O material é digital. Você recebe o arquivo em PDF para imprimir." },
   { q: "Como recebo o acesso?", a: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá um e-mail com o link para baixar todas as atividades e bônus." },
   { q: "Preciso de programas especiais para abrir?", a: "Não. Todos os arquivos estão em formato PDF de alta qualidade, prontos para abrir em qualquer celular ou computador e imprimir em folha A4 comum." },
   { q: "O pagamento é seguro?", a: "Sim, utilizamos uma das maiores plataformas de pagamentos do Brasil. Seus dados estão 100% protegidos e a entrega é garantida." },
@@ -419,13 +420,13 @@ const Index = () => {
             </div>
 
             {/* Premium */}
-            <div className="relative rounded-3xl p-[2px]bg-gold shadow-gold overflow-hidden">
+            <div className="relative rounded-3xl p-[2px] bg-gold shadow-gold overflow-hidden">
               <div className="bg-gold text-black py-1.5 flex items-center justify-center gap-2 font-black text-[11px] uppercase tracking-wider">
                 <Crown className="w-3.5 h-3.5" />
                 <Trophy className="w-3.5 h-3.5" />
                 MELHOR CUSTO-BENEFÍCIO
               </div>
-              <div className="rounded-b-[22px] bg-[#f0efef] p-6 text-center flex flex-col items-center border border-2">
+              <div className="rounded-b-[22px] bg-[#f6f6f5] p-6 text-center flex flex-col items-center border border-2">
                 <div className="text-xs font-bold uppercase tracking-wider text-black mt-2">Premium</div>
                 <div className="mt-4 mb-4 px-2">
                   <img 
