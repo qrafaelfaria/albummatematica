@@ -51,7 +51,7 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
             
             <ul className="grid grid-cols-1 gap-1 text-left">
               {[
-                "Figurinhas Editáveis",
+                "300 Atividades Pedagógicas",
                 "Dinâmicas Divertidas",
                 "Banco de Avaliações",
                 "Plano de Aulas",
