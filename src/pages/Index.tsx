@@ -394,7 +394,9 @@ const Index = () => {
                 <span className="text-4xl font-extrabold text-black">R$10,00</span>
               </div>
               <ul className="mt-4 space-y-2 text-sm text-left self-start">
-                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 300 Atividades da Copa</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Álbum de Matemática da Copa do Mundo </li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> +100 Figurinhas de respostas  </li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Moldes dos pacotinhos para imprimir e entregar para os alunos  </li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-red-500 mt-0.5" /> Sem Atualizações Semanais</li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-red-500 mt-0.5" /> Sem Direito aos Bônus Exclusivos</li>
               </ul>
@@ -448,10 +450,10 @@ const Index = () => {
                   {(() => {
                     let bonusIdx = 0;
                     return [
-                      { text: "300 Atividades da Copa do Mundo (7 apostilas)", isBonus: false },
-                      { text: "Material Pronto para imprimir em A4", isBonus: false },
-                      { text: "Conteúdo organizado por temas", isBonus: false },
-                      { text: "Figurinhas Editáveis com Foto dos Alunos", isBonus: true },
+                      { text: "Álbum de Matemática da Copa do Mundo", isBonus: false },
+                      { text: "+100 Figurinhas de respostas", isBonus: false },
+                      { text: "Moldes dos pacotinhos para imprimir e entregar para os alunos", isBonus: false },
+                      { text: "300 Atividades Pedagógicas", isBonus: true },
                       { text: "Dinâmicas Divertidas", isBonus: true },
                       { text: "Banco de Avaliações", isBonus: true },
                       { text: "Plano de Aulas", isBonus: true },
