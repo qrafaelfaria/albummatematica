@@ -17,7 +17,7 @@ import tshirt12 from "@/assets/Atividade12.png";
 import tshirt13 from "@/assets/Atividade13.png";
 import tshirt14 from "@/assets/Atividade14.png";
 import tshirt15 from "@/assets/Atividade15.png";
-import HeroCopa from "@/assets/HeroCopa.png";
+import HeroCopa from "@/assets/MatematicaBanner.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
 import AtividadeImage from "@/assets/Atividades.png";
@@ -174,7 +174,7 @@ const Index = () => {
   }, [currentSlide]);
 
   return (
-    <main className="bg-[#f0efef] text-foreground">
+    <main className="bg-[#f6f6f5] text-foreground">
       {/* Top urgency bar */}
       <div className="w-full bg-gradient-urgency text-urgency-foreground text-center text-xs sm:text-sm font-bold py-2 px-3">
         <span className="inline-flex items-center gap-1.5">
@@ -190,7 +190,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-[#0000FF]`}>
-            <span className="text-foreground">300 Atividades Pedagógicas da Copa 2026 Prontas</span> para Imprimir e Usar
+            <span className="text-foreground">Álbum de Matemática da Copa do Mundo Pronto</span> para Imprimir e Usar
             <br />
           </h1>
 
