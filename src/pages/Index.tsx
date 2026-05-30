@@ -24,10 +24,10 @@ import AtividadeImage from "@/assets/AtividadesBonus.jpg";
 import AvaliacaoImage from "@/assets/Avaliacao.png";
 import CuriosidadeImage from "@/assets/Curiosidade.png";
 import DinamicaImage from "@/assets/Dinamica.png";
-import Feedback01 from "@/assets/Relato01.png";
-import Feedback02 from "@/assets/Relato02.png";
-import Feedback03 from "@/assets/Relato03.png";
-import Feedback04 from "@/assets/Relato04.png";
+import Feedback01 from "@/assets/Feedback01.png";
+import Feedback02 from "@/assets/Feedback02.png";
+import Feedback03 from "@/assets/Feedback03.png";
+import Feedback04 from "@/assets/Feedback04.png";
 import GarantiaImage from "@/assets/Garantia.webp";
 import BancoBonus from "@/assets/BancoBonus.png";
 import CadernoBonus from "@/assets/CadernoBonus.png";
@@ -238,7 +238,7 @@ const Index = () => {
             {tshirts.map((t) => (
               <div
                 key={t.alt}
-                className="snap-center shrink-0 w-[85%] aspect-[3/4] rounded-2xl overflow-hidden bg-white border border-border shadow-card-dark"
+                className="snap-center shrink-0 w-[85%] rounded-2xl overflow-hidden bg-white shadow-card-dark"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
@@ -373,7 +373,7 @@ const Index = () => {
             {feedbackImages.map((f, index) => (
               <div
                 key={index}
-                className="snap-center shrink-0 w-[85%] aspect-[3/4] rounded-2xl overflow-hidden bg-white border border-border shadow-card-dark"
+                className="snap-center shrink-0 w-[85%] rounded-2xl overflow-hidden bg-white border border-border shadow-card-dark"
               >
                 <img src={f.src} alt={f.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
