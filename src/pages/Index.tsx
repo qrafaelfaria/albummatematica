@@ -37,9 +37,9 @@ import FiguraBonus from "@/assets/FiguraBonus.png";
 import PlanoBonus from "@/assets/PlanoBonus.png";
 
 const CHECKOUT_URL = "#checkout";
-const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/6a03c77a7483096845580587";
-const BASIC_CHECKOUT_URL = "https://pay.wiapy.com/sVm2xI1lE";
-const DISCOUNTED_PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/g1NogNsgbN"; // URL com desconto para R$ 19,90
+const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/Za4yOIeYei";
+const BASIC_CHECKOUT_URL = "https://pay.wiapy.com/eevfia5qY";
+const DISCOUNTED_PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/3NB724eoeq"; // URL com desconto para R$ 19,90
 
 const useCountdown = (minutes: number) => {
   const target = useMemo(() => Date.now() + minutes * 60 * 1000, [minutes]);
